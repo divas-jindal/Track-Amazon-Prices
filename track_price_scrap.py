@@ -40,7 +40,7 @@ def send_mail(title, price):
     link= f"Link: https://www.amazon.in/dp/B00VK0FTP0/ref=s9_acsd_al_bw_c2_x_2_i?pf_rd_m=A1K21FY43GMZF8" \
           f"&pf_rd_s=merchandised-search-3&pf_rd_r=2Z9ZDW664RDSVE0GW4H7&pf_rd_t=101&pf_rd_p=a84dfd51-d074-42f8-b381" \
           f"-ae722f857ec5&pf_rd_i=21246959031 "
-    print(body + link)
+    #print(body + link)
 
     msg = f"Subject: {subject}\n\n\n{body}{link}"
 
